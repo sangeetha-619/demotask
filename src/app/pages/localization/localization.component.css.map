@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "localization.component.scss"
+    ],
+    "names": [],
+    "file": "localization.component.css"
+}

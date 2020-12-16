@@ -1,0 +1,81 @@
+<nb-card>
+    <nb-card-body class="example-items-col">
+                 
+            
+            <div class="wrapp">
+                <div class="searcher">
+                   <input type="text" class="searcherTerm" placeholder="search...">
+                   <button type="submit" class="searcherButton">
+                     <i class="fa fa-search"></i>
+                  </button> 
+                  </div>
+              </div> 
+            <br>
+            <br>
+            <nb-icon icon="edit-2-outline" class="Iconic"></nb-icon>
+            <br>
+            <br>
+            <form>
+          
+                <h6>Employee Leave Policy</h6>
+                <br>
+                <div class="row">
+                   <div class="col"> 
+                    <label>Leave Date</label>
+                    <input [nbDatepicker]="datepicker" class="form-control">
+                    <nb-datepicker #datepicker></nb-datepicker>
+                    </div>     
+                    <div class="col"> 
+                        <label>Leave Occations</label>
+                         <input type="text" class="form-control">
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                  <div class="col">
+                    <label>No of Holidays</label>  
+                    <input class="form-control w-50">      
+                  </div> 
+                </div>  
+                <br>
+              <label>Employee Documents upload</label>&nbsp;
+    
+                <input nbInput type="file" class="form-control w-50">
+                
+                <br>
+                <br>
+                
+                <button nbButton class="float-right mb-3">Create</button>
+              </form>  
+              
+              <br>
+<h6>Employee Holiday list</h6>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Leave</th>
+        <th scope="col">Months</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Larry</td>
+        <td>the Bird</td>
+      </tr>
+    </tbody>
+  </table>
+
+</nb-card-body>
+</nb-card>

@@ -1,0 +1,94 @@
+<nb-card>
+    <nb-card-body class="example-items-col">
+        <form>
+          
+            <h6>Employee Details</h6>
+            <br>
+            <nb-icon icon="edit-2-outline" class="Iconic"></nb-icon>
+            <div class="wrapp">
+                <div class="searcher">
+                   <input type="text" class="searcherTerm" placeholder="search...">
+                   <button type="submit" class="searcherButton">
+                     <i class="fa fa-search"></i>
+                  </button> 
+                  </div>
+              </div>
+            <br>
+            <br>
+            <div class="row">
+               <div class="col"> 
+                <label>First Name</label>
+                    <input type="text" class="form-control">
+                </div>     
+                <div class="col"> 
+                    <label>Last Name</label>
+                     <input type="text" class="form-control">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col">
+                <label>Email</label>  
+                <input class="form-control">      
+              </div>
+              <div class="col">
+                <label>Mobile No</label>
+                <input class="form-control "> 
+              </div>
+            </div>
+            <br>
+            <label>Address</label>  
+              <textarea cols="3" rows="3" name="" id="" class="form-control"></textarea>
+              <br>
+            <div class="row">
+            <div class="col">
+              <label>Date of Birth</label>  
+              <input class="form-control">
+            </div>
+            <div class="col">
+            <label>Landline No</label>  
+              <input class="form-control">
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col">
+              <label>Localization</label>  
+              <input class="form-control ">
+            </div>
+            <div class="col">
+              <label>Employee ID</label>  
+              <input class="form-control ">
+            </div>
+          </div>
+          <br>
+          <h6>Employee Role</h6>
+            <br>
+              <div class="row">
+              <div class="col">
+                <label>Designation</label>  
+                <select class="form-control">
+                    <option>Operations</option>
+                    <option>HR</option>
+                    <option>Executive</option>
+                    <option>Teller</option>
+                    <option>Asst.Manager</option>
+                    <option>Manager</option>
+                </select>
+               </div> 
+                <div class="col">
+                  <label>Transaction Limit</label>  
+                  <select class="form-control">
+                      <option>select</option>
+                  </select>
+            </div>  
+          </div> 
+          <br>    
+          <label>Employee Documents upload</label>&nbsp;
+
+            <input nbInput type="file">    
+            
+            <button nbButton class="float-right">Create</button>
+          </form>
+    </nb-card-body>
+</nb-card>

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "transactionlist.component.scss"
+    ],
+    "names": [],
+    "file": "transactionlist.component.css"
+}

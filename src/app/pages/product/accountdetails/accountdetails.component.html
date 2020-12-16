@@ -1,0 +1,107 @@
+<nb-card>
+    <nb-card-body class="example-items-col">
+        <form>
+          
+            <h6>Account Settings</h6>
+            <br>
+            <nb-icon icon="edit-2-outline" class="Iconic"></nb-icon>
+            <div class="wrapp">
+                <div class="searcher">
+                   <input type="text" class="searcherTerm" placeholder="search...">
+                   <button type="submit" class="searcherButton">
+                     <i class="fa fa-search"></i>
+                  </button> 
+                  </div>
+              </div>
+            <br>
+            <br>
+            
+            <label>Name</label>
+            <input type="text" class="form-control w-50">
+            <br>
+            <div class="row">
+              <div class="col">
+                <label>Bank ID</label>  
+                <input class="form-control w-50">      
+              </div>
+              <div class="col">
+                <label>Branch ID</label>
+                <input class="form-control w-50"> 
+              </div>
+            </div>
+            <br>
+            <div class="row">
+            <div class="col">
+              <label>Account ID</label>  
+              <input class="form-control w-50">
+            </div>
+            <div class="col">
+              <label>Customer ID</label>  
+              <input class="form-control w-50">
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col">
+              <label>Minimum Balance</label>  
+              <input class="form-control w-50">
+            </div>
+            <div class="col">
+              <label>Currency Type</label>  
+              <input class="form-control w-50">
+            </div>
+          </div>
+          <br>
+          <h6>Product Type</h6>
+            <br>
+              <div class="row">
+              <div class="col">
+                <label>Transaction ID</label>  
+                <select class="form-control w-50">
+                    <option>1</option>
+                    <option>2</option>
+                </select>
+               </div> 
+                <div class="col">
+                  <label>Transaction Mode</label>  
+                  <select class="form-control w-50">
+                      <option>NEFT</option>
+                      <option>IMPS*</option>
+                      <option>SWIFT</option>
+                      <option>INSTANT</option>
+                  </select>
+            </div>  
+          </div> 
+          <br>
+          <div class="row">
+            <div class="col">
+              <label>Actual Balance</label>  
+              <input class="form-control w-50">
+            </div>
+            <div class="col">
+              <label>Net Balance</label>  
+              <input class="form-control w-50">
+            </div>
+          </div>
+          <br>
+          <div class="form-group">
+            <label>State</label>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Active
+              </label>
+            </div>
+          </div>
+          <br>
+          <label>Interest</label>&nbsp;%  
+          <select class="form-control w-25">
+              <option>8%</option>
+              <option>10%</option>
+              <option>22%</option>
+          </select>
+            
+              <button nbButton class="float-right">Create</button>
+          </form>
+    </nb-card-body>
+</nb-card>
